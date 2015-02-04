@@ -1,0 +1,458 @@
+/*
+Theme Name:   Accelerate Theme Child
+Theme URI:    http://example.com/accelerate-child/
+Description:  Accelerate Theme Child - Accelerate
+Author:       AJ Dyrbye
+Author URI:   http://dyrbye.ca
+Template:     accelerate-theme
+Version:      1.0.0
+Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  accelerate-theme-child
+*/
+
+@import url("../accelerate-theme/style.css");
+
+body {
+	font-family: 'Open Sans', 'sans serif';
+}
+
+.home-page {
+	background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+	margin-bottom: 0;
+} 
+
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+#masthead nav ul li {
+	float: left;
+	margin: 0 10px;
+}
+
+.site-footer {
+	margin-top: 60px;
+}
+
+/* Blog Posts */
+
+.blog-post {
+    width: 50%;
+}
+
+.blog-post h4 {
+    font-size: 16px;
+    font-family: 'Montserrat';
+    color: #a6a6a6;
+    text-transform: uppercase;
+}
+
+.blog-post h2 {
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    padding-bottom: 1em;
+}
+
+.blog-post .read-more-link {
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #45ac9d;
+    text-transform: uppercase;
+}
+
+
+/* Blog Posts on Main Page */
+
+section.recent-posts div.blog-post h4 {
+	margin-top: 50px;
+}
+
+
+/* Case Studies */
+
+article.case-study {
+	margin: 40px 0 0;
+}
+
+article.case-study h2 {
+	font-weight: 400;
+}
+
+article.case-study h5 {
+	font-size: 14px;
+	font-weight: 300;
+	margin-top: 12px;
+	color: #878787;
+}
+
+article.case-study h6 {
+	font-size: 14.5px;
+	font-weight: 400;
+	margin-top: 12px;
+	margin-bottom: 36px;
+}
+
+article.case-study p {
+	font-size: 15px;
+	font-weight: 400;
+}
+
+aside.case-study-sidebar {
+	float: left;
+	width: 314px;
+	margin: 0 40px 0 0;
+}
+
+div.case-study-images {
+	float: left;
+	width: 606px;
+}
+
+div.case-study-images img {
+	margin-bottom: 50px;
+	border: 1px solid #ddd;
+}
+
+/* Case Studies Feature on Homepage */
+
+li.individual-featured-work {
+	list-style-type: none;
+	max-width: 305px;
+	float: left;
+	margin-left: 25px;
+	margin-bottom: 50px;
+}
+
+li.individual-featured-work h3 {
+	font-size: 16px;
+	text-align: center;
+	font-weight: 400;
+	margin-top: 20px;
+}
+
+section.featured-work div.site-content h4 {
+	text-transform: uppercase;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 48px;
+	margin-bottom: 48px;
+}
+
+/* Case Studies Archive */
+
+body.post-type-archive-case_studies article.case-study {
+	margin-top: 60px;
+}
+
+body.post-type-archive-case_studies aside.case-study-sidebar h2 {
+	font-weight: 400;
+	font-size: 28px;
+}
+
+body.post-type-archive-case_studies aside.case-study-sidebar p {
+	margin-top: 24px;
+	font-size: 16px;
+}
+
+body.post-type-archive-case_studies div.case-study-images {
+	margin-bottom: 30px;
+}
+
+/* Contact Page */
+
+body.page-id-47381 #content h2 {
+	font-family: 'Montserrat';
+	margin-top: 60px;
+	margin-left: 175px;
+}
+
+body.page-id-47381 #content p {
+	font-size: 16px;
+	font-weight: 400;
+	width: 600px;
+	margin-left: 175px;
+}
+
+#ninja_forms_form_1_cont {
+	padding-top: 20px;
+	width: 600px;
+	margin-left: 175px;
+}
+
+#ninja_forms_field_1_label, #ninja_forms_field_2_label, #ninja_forms_field_3_label {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+#ninja_forms_field_1_div_wrap, #ninja_forms_field_2_div_wrap {
+	width: 288px;
+	margin-bottom: 30px;
+}
+
+#ninja_forms_field_1_div_wrap {
+	float: left;
+}
+
+#ninja_forms_field_2_div_wrap {
+	float: right;
+}
+
+#ninja_forms_field_1, #ninja_forms_field_2 {
+	line-height: 1.5em;
+}
+
+#ninja_forms_field_3 {
+	border: #bfbfbf solid 1px;
+}
+
+#ninja_forms_field_5_div_wrap {
+	float: right;
+	border: none;
+}
+
+#nf_submit_1 {
+	background-color: #45ac9d;
+	border: none;
+	color: white;
+	margin-top: 20px;
+}
+
+#nf_submit_1 input#ninja_forms_field_5 {
+	border: none;
+	background-color: #45ac9d;
+	width: 205px;
+	height: 55px;
+	font-family: 'Montserrat';
+	font-weight: 600;
+	font-size: 18px;
+	color: #ffffff;
+}
+
+/* About Page */
+
+.page-id-47394 #primary {
+	margin: 0;
+	padding-left: 0;
+	padding-right: 0;
+	width: 1250px;
+}
+
+.aboutpage-hero {
+	background: url("img/taxi-photo-about.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+	margin-bottom: 0;
+	max-height: 310px;
+	max-width: 1250px;
+}
+
+#hero-statement p {
+	text-align: center;
+	font-size: 24px;
+	font-weight: 400;
+	color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 55px;
+	height: 200px;
+	width: 550px;
+}
+
+#hero-statement .company-name {
+	color: #45ac9d;
+}
+
+article.about-accelerate {
+	font-family: 'Open Sans';
+	width: 850px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+#services {
+	width: 500px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+#services h4 {
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Montserrat';
+}
+
+#services p {
+	font-size: 16px;
+}
+
+#content-strategy, #influencer-mapping, #social-media-strategy, #design-development {
+	height: 300px;
+}
+
+#content-strategy .content-text {
+	float: right;
+	width: 575px;
+	margin-top: 16px;
+}
+
+#content-strategy .content-image {
+	float: left;
+	width: 275px;
+}
+
+#content-strategy .content-image img {
+	margin-right: 40px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#influencer-mapping .influencer-text {
+	float: left;
+	width: 575px;
+	margin-top: 16px;
+}
+
+#influencer-mapping .influencer-image {
+	float: right;
+	width: 275px;
+}
+
+#influencer-mapping .influencer-image img {
+	margin-left: 40px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#social-media-strategy .social-text {
+	float: right;
+	width: 575px;
+	margin-top: 16px;
+}
+
+#social-media-strategy .social-image {
+	float: left;
+	width: 275px;
+}
+
+#social-media-strategy .social-image img {
+	margin-right: 40px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#design-development .design-text {
+	float: left;
+	width: 575px;
+	margin-top: 16px;
+}
+
+#design-development .design-image {
+	float: right;
+	width: 275px;
+}
+
+#design-development .design-image img {
+	margin-left: 40px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+article.about-accelerate h5 {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 24px;
+}
+
+#about-footer {
+    border-top-color: #e3e1e1;
+    border-top-style: dotted;
+    border-top-width: 1px;
+    margin-top: 40px;
+    padding-top: 20px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about-footer .contact-message {
+	width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+#about-footer .contact-message strong {
+	font-size: 24px;
+	padding-right: 2em;
+	align: left;
+}
+
+#about-footer .contact-message .button {
+	align: right;
+	font-weight: 400;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+/* 404 Page */
+
+.error404 {
+	margin: 0;
+	padding-left: 0;
+	padding-right: 0;
+	width: 1250px;
+}
+
+.error404 .page-header .page-title {
+	color: #45ac9d;
+}
+
+#notfound {
+	margin-top: 100px;
+} 
+
+#notfound aside.nfimage {
+	float: left;
+	width: 480px;
+	height: 360px;
+}	
+
+.nfimage img {
+	width: 480px;
+	height: 360px;
+}	
+
+ #notfound .nftext {
+	float: right;
+	width: 420px;
+	margin-bottom: 100px;
+} 
+
+ #notfound .nftext .page-header {
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 20px;
+	border: none;
+} 
+
+#notfound .nftext .page-header h1 {
+	padding-top: 0;
+	margin-top: 0;
+	font-size: 40px;
+} 
+
+#notfound .nftext .page-content p {
+ 	font-size: 18px;
+ 	margin-bottom: 24px;
+ }
+ 
+ #notfound .nftext .page-content p a {
+	color: #45ac9d;
+	font-weight: 600;
+ }
